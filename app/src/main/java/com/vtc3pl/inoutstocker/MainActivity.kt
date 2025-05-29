@@ -367,7 +367,7 @@ fun loginUser(
     CoroutineScope(Dispatchers.IO).launch {
         val client = OkHttpClient()
         val requestBody = FormBody.Builder().add("user_name", username).add("password", password)
-            .add("appVersion", "versionSix").build()
+            .add("appVersion", "versionEight").build()
 
         val request = Request.Builder().url("https://vtc3pl.com/in_out_stocker_app_login.php")
             .post(requestBody).build()
