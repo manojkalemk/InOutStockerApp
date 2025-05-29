@@ -1,6 +1,6 @@
 # InOutStockerApp
 
-InOutStockerApp is an Android inventory management app built entirely in Kotlin. It uses the device’s back camera to scan QR codes on goods and talks to PHP APIs on the backend. Every action (audit, inward, outward) only works after a successful scan.
+InOutStockerApp is an Android inventory management app built entirely in Kotlin. It uses the device’s back camera or a built-in or external scanning device to scan QR codes on goods and talks to PHP APIs on the backend. Every action (audit, inward, outward) only works after a successful scan.
 
 ---
 
@@ -113,7 +113,7 @@ InOutStockerApp is an Android inventory management app built entirely in Kotlin.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/manoj2000-crypto/InOutStockerApp.git
+   git clone https://github.com/manojkalemk/InOutStockerApp.git
    ```
 2. Open in Android Studio (File > Open).
 3. Let Gradle sync and build.
