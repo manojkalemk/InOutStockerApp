@@ -58,8 +58,7 @@ InOutStockerApp is an Android inventory management app built entirely in Kotlin.
 - **Animations:** Lottie  
 - **Navigation:** Navigation Compose  
 - **Build:** Gradle Kotlin DSL (.kts)  
-- **Permissions:** INTERNET, CAMERA, FLASHLIGHT, POST_NOTIFICATIONS, BLUETOOTH*, LOCATION*  
-  (from AndroidManifest.xml)
+- **Permissions:** INTERNET, CAMERA, FLASHLIGHT, POST_NOTIFICATIONS, BLUETOOTH, LOCATION  
 
 ---
 
